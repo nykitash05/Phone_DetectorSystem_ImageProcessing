@@ -25,6 +25,9 @@ Eg:
 C:\Users\nykit\OneDrive\Desktop\My_Work\Brain_Corp\find_phone_task_4> python find_phone.py ~/find_phone_test_images/52.jpg
 0.5448  0.2821
 
+# find_phone_test_images
+contains images for testing. This can be updated with any images.
+
 # Program execution can be done using following steps:
 
 1) Download the repository at a location in your computer.
