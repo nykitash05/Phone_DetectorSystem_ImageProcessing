@@ -1,0 +1,11 @@
+- I tried using other types of thresholding like adaptive, canny and Otsu's binarization but it wasn't giving good results as of now
+  so I wish to explore these methods more trying different parameters.
+  
+- I would like to explore object detection methods like YOLO, R CNN to see if we can create our own weight file with these images and 
+  run YOLO or other such techniques like Mask R CNN on this with Darkflow and Darknet respectively.
+  
+- The dataset prepared was good in terms of different angles and illumination settings. It just needs to have much more images.
+  Defintely more than 100 images.
+  
+- Customer can may be try and collect more data with varying phone models and placing it vertically against a wall 
+  under different lighting conditions.
