@@ -38,11 +38,8 @@ def calculatingaccuracy():
         Accuracy = round((count/orgcount) * 100 , 3)
         result.write("Model gives " + str(Accuracy) + "% accurate result of the prediction")
     file2.close() 
-    result.close()   
+    result.close()  
     
-
-
-
 def main():
     #Read image path
     images = glob.glob(sys.argv[1][2:]+'/*.jpg')                        # Append ~/ from command prompt
@@ -74,4 +71,5 @@ def main():
     file.close()
     
     calculatingaccuracy()                                               # Calling performance calculator function
+
 main()
