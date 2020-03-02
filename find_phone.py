@@ -14,7 +14,7 @@ import math
 def main():
     #Read image path for sysin
     images = glob.glob(sys.argv[1][2:])                          # Append ~/ and read file name from command prompt
-    with open(im, 'rb') as file:                                 #Open Image to read
+    with open(images, 'rb') as file:                                 #Open Image to read
         image = Image.open(file)
         h,w = image.height,image.width
         image = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR) # Convert RGB to BGR
