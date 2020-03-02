@@ -26,6 +26,7 @@ C:\Users\nykit\OneDrive\Desktop\My_Work\Brain_Corp\find_phone_task_4> python fin
 0.5448  0.2821
 
 - find_phone_test_images contains images for testing. This can be updated with any images.
+- Additionalnotes.txt file contains some other ways I would like to explore to improve my detector performance and some ways to improve the data collection of the customer
 
 # Program execution can be done using following steps:
 
